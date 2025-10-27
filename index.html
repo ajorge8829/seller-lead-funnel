@@ -81,13 +81,11 @@ button { width:100%; padding:14px 18px; border:0; border-radius:10px; background
       <textarea id="notes" name="notes" rows="3" placeholder="Bedrooms/baths, upgrades, timing…"></textarea>
     </div>
 
-    <div style="margin-top:16px;font-size:13px;color:#6b7280;">
-  <label style="display:flex;align-items:center;gap:8px;white-space:normal;">
-    <input type="checkbox" name="sms_opt_in" value="yes" style="margin:0;flex-shrink:0;">
-    <span style="line-height:1.4;">
-      I agree to receive emails/SMS from Victoria Suarez. Message/data rates may apply.
-      Reply STOP to unsubscribe. See <a href="/privacy.html" target="_blank">Privacy Policy</a>.
-    </span>
+    <div style="margin-top:16px; font-size:13px; color:#6b7280; display:flex; align-items:center; gap:8px; max-width:100%;">
+  <input id="sms_opt_in" type="checkbox" name="sms_opt_in" value="yes" style="margin:0; flex:0 0 auto;">
+  <label for="sms_opt_in" style="margin:0; line-height:1.4; flex:1 1 auto;">
+    I agree to receive emails/SMS from Victoria Suarez. Message/data rates may apply.
+    Reply STOP to unsubscribe. See <a href="/privacy.html" target="_blank">Privacy Policy</a>.
   </label>
 </div>
 
